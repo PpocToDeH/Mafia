@@ -1,0 +1,160 @@
+body{
+background: radial-gradient(#B3B6E5 50%, #000992 30%, #fff);
+margin: 0;
+padding: 0;
+}
+.text{
+font-size:2vmin;
+text-align: center;
+font-family: segoe script;
+color: #fff;
+}
+.pic{
+width: 15vw;
+height: 30vh;
+display: flex;
+position: relative;
+}
+.pic img{
+opacity: 1;
+display: block;
+position: relative;
+transition: all 1s;
+}
+.pic p{
+position: relative;
+}
+.table{
+z-index: -1;
+}
+table{
+border: 0;
+padding: 20vw;
+}
+.mask{
+position:absolute;
+opacity: 0;
+transition: all 1s;
+}
+.pic:hover img{
+opacity: 0;
+}
+.pic:hover .mask{
+opacity: 1;
+}
+td{
+background: radial-gradient(#000992 30%, #B3B6E5 70%);
+padding: 0;
+margin: 0;
+}
+th{
+font-family: segoe script;
+font-size: 2vw;
+color: #fff;
+align-text: center;
+background: radial-gradient(#000992 10%, #B3B6E5 70%);
+padding: 0;
+margin: 0;
+}
+header{
+background-color:313030;
+position: fixed;
+height: 8vh;
+width: 100vw;
+justify-content: space-between;
+}
+.isol{
+margin: 0 0 0 2dvw;
+display: inline-block;
+width:7.5vw;
+height:7.5vh;
+background-image: url(медиа/Снимок.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+}
+.isol:hover{
+background-image: url(медиа/Снимок3.jpg);
+cursor: painter;
+}
+.isor{
+margin: 0 0 0 2dvw;
+display: inline-block;
+background-image: url(медиа/ИКОНКА2.ico);
+background-size: contain;
+background-repeat: no-repeat;
+width:8vw;
+height:8vh;
+transition-property: all;
+transition-duration: 2s;
+}
+.isor:hover{
+background-image: url(медиа/Иконка.ico);
+cursor: painter;
+}
+.nav{
+z-index: 2;
+text-align: center;
+vertical-align:top;
+width:15vw;
+height:10vh;
+display: inline-block;
+}
+.email{
+margin: 0;
+padding: 0;
+width:30wv;
+height:7.5vh;
+display:inline-block;
+vertical-align:top;
+}
+.email:hover{
+background-color: 626262;
+}
+.tel{
+margin: 0;
+padding: 0;
+width:30wv;
+height:7.5vh;
+display:inline-block;
+vertical-align:top;
+}
+.tel:hover{
+background-color: 626262;
+}
+.all{
+font-family: FRANKLIN GOTHIC MEDIUM;
+font-size: 1.5dvw;
+color: #ffffff;
+text-decoration: none;
+}
+.all:hover{
+color: #000992;
+text-decoration: underline;
+cursor: painter;
+}
+ul{
+display: inline-block;
+list-style-type: none;
+margin: 0;
+padding: 15 0;
+}
+#menu{
+display: block;
+}
+#menu > li{
+display: block;
+background-color: 313030;
+}
+#menu > li:hover{
+background-color:626262;
+}
+#menu > li > ul{
+display: none;
+background-color: 313030;
+}
+#menu > li:hover > ul{
+display:block;
+}
+#menu > li > ul:hover{
+background-color:626262;
+}
